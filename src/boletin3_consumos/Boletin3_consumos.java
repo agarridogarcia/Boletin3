@@ -17,23 +17,20 @@ public class Boletin3_consumos {
         float l=consumo2.getlitros();
         float km=consumo2.getkilometros();
         float consumoMedio=consumo2.calcular_consumoMedio(l,km);
-        System.out.println("consumo medio = "  + consumoMedio );
-        System.out.println("consumo medio= " + consumo2.calc_conMedio());
+        //calcular consumo medio
         System.out.println("consumo medio= " + consumo2.calcular_consumoMedio(consumo2.getlitros(), consumo2.getkilometros()));
-        
+        //calcular consumo en euros
         System.out.println("Consumo euros = " + consumo2.calcular_consumoEuros() );
         
         
-       //exemplo 1
-       l=Float.parseFloat(JOptionPane.showInputDialog("Introduza os litros ="));
-       consumo2.setlitros(l);
-       System.out.println(" Novo valor litros = " + consumo2.getlitros() );
-       //exemplo2
+       //variar os litros consumidos no obxecto 2
        consumo2.setlitros(Float.parseFloat(JOptionPane.showInputDialog("Introduza os litros =")));
-       System.out.println(" Novo valor litros = " + consumo2.getlitros() );    
- 
-        consumo2.getvelocidadeMedia();
-        System.out.println( "velocidade media = " + consumo2.getvelocidadeMedia());
+          
+       consumo2.visualizar();
+       
+      //visualiza a velocidade media do obxecto 2
+      consumo2.getvelocidadeMedia();
+       System.out.println( "velocidade media = " + consumo2.getvelocidadeMedia());
        
        
         }

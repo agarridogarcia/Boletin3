@@ -58,6 +58,9 @@ public class Consumos {
     public float calc_conMedio(){
         return litros*100/kilometros;
     }
+    public void visualizar(){
+        System.out.println("km = " + kilometros + "litros = " + litros + "velocidade media = " + velocidadeMedia + "precio gasoil = " + precioGasoil);
+    }
     
     
     
