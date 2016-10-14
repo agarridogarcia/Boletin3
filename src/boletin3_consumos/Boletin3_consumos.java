@@ -25,7 +25,6 @@ public class Boletin3_consumos {
         
        //variar os litros consumidos no obxecto 2
        consumo2.setlitros(Float.parseFloat(JOptionPane.showInputDialog("Introduza os litros =")));
-          
        consumo2.visualizar();
        
       //visualiza a velocidade media do obxecto 2
