@@ -2,7 +2,7 @@
 package boletin3_consumos;
 
 public class Consumos {
-   //declaro atributos
+   //declaro atributoss
     private float kilometros, litros, velocidadeMedia, precioGasoil;
     //constructores
     public Consumos(){
